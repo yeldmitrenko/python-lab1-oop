@@ -28,4 +28,4 @@ if __name__ == "__main__":
     dishwasher3 = Dishwasher(2520, 6, "WHIRLPOOL", 10)
     print("The third dishwasher:\n", dishwasher3.__str__()) 
 
-    print("Energy class of INDESIT: ", dishwasher1.getEnerdgyClass()) 
+    print("Energy class of Dishwashers: ", Dishwasher.getEnerdgyClass()) 
